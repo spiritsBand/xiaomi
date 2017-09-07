@@ -1,0 +1,114 @@
+/*css 初始化 */
+
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+input {
+    margin: 0;
+    padding: 0;
+    /*清除元素的内外边距*/
+}
+
+fieldset,
+img,
+input,
+button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+    /*外面环绕线*/
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+/*去掉原样式中的小黑点*/
+
+img {
+    vertical-align: top;
+    border: 0;
+}
+
+table {
+    border-collapse: collapse;
+    /*合并外连线*/
+}
+
+body {
+    font: 12px/150% "microsoft yahei";
+    color: #000;
+    background: #fff;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+s,
+i,
+em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.w {
+    /*版心 提取 */
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.w_left {
+    width: 290px;
+    float: left;
+    margin-right: 15px;
+}
+
+.w_center {
+    width: 590px;
+    float: left;
+}
+
+.w_right {
+    width: 290px;
+    float: left;
+    margin-left: 15px;
+}
